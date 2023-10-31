@@ -1,1 +1,13 @@
-
+button:hover {
+    background-color: cornflowerblue;
+    color: white;
+  
+  }
+  button {
+    background-color: ghostwhite;
+    transition: background-color 2s; /* 2-second transition for background-color property */
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
